@@ -1,12 +1,24 @@
+body{
+	background-image: url("images/bridge.jpg");
+	background-color: #262626;
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:  100%;
 
+}
 a{
     text-decoration: none;
     font-family: helvetica;
-     color: #f4f4f4;
      font-size: 14px;
      font-weight: lighter;
 
+}
 
+hr{
+	width: 48%;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 
@@ -15,20 +27,33 @@ ul.navbar {
     text-transform: uppercase;
     text-align: center;
     color: #f4f4f4;
+    letter-spacing: 5px;
 
 }
 
 .navbar{
 	margin-left: -40px;
  	margin-top: 100%;
-
-
 	
 }
 
-aside {
+.navbar a {
+	color: #f4f4f4;
+}
+
+.navbar a:hover {
+	color: #3498DB;
+}
+
+
+.navbar li {
+	margin-bottom: 15px;
+}
+
+
+#aside {
+	display: none;
 	opacity: 1;
-	visibility: visible;
 	background-image: url("images/navbar-bg.png");
 	width: 260px;
 	position: absolute;
@@ -36,4 +61,5 @@ aside {
 	left: 0;
 	bottom: 0;
 
+ 
 }
