@@ -1,0 +1,39 @@
+
+a{
+    text-decoration: none;
+    font-family: helvetica;
+     color: #f4f4f4;
+     font-size: 14px;
+     font-weight: lighter;
+
+
+}
+
+
+ul.navbar {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f4f4f4;
+
+}
+
+.navbar{
+	margin-left: -40px;
+ 	margin-top: 100%;
+
+
+	
+}
+
+aside {
+	opacity: 1;
+	visibility: visible;
+	background-image: url("images/navbar-bg.png");
+	width: 260px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+
+}
