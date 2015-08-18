@@ -3,7 +3,6 @@ body{
 	background-color: #262626;
 	opacity: 0.9;
 	background-repeat: no-repeat;
-	background-attachment:fixed;
 	background-size:  100%;
 
 }
@@ -42,7 +41,7 @@ ul.navbar {
 }
 
 .navbar a:hover {
-	color: #3498DB;
+	color: #F39C12;
 }
 
 
@@ -62,4 +61,72 @@ ul.navbar {
 	bottom: 0;
 
  
+}
+
+#form{
+	position: relative;
+	margin-left: 40%;
+	margin-top: 20%;
+	display: none;
+}
+
+
+#useremail{
+	border: 2px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 250px;
+	border-color: #F39C12;
+	background: transparent;
+	color: #F39C12;
+	margin-left: 5%;
+	letter-spacing: 1px;
+
+}
+
+
+#newsletter_button{
+	border: 2px solid;
+	border-color: #F39C12;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #F39C12;;
+	color: #F4f4f4;
+	text-align: center;
+	margin-left: 8px;
+	letter-spacing: 1px;
+}
+#newsletter_button:hover{
+	border: 2px solid;
+	border-color: #E67E22;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #E67E22;;
+	color: #F4f4f4;
+	text-align: center;
+	margin-left: 8px;
+	letter-spacing: 1px;
+}
+h1 {
+	font-family: helvetica;
+	font-size: 32px;
+	font-weight: lighter;
+	letter-spacing: 8px;
+	color: gray;
+
+}
+
+.error{
+font-family: helvetica;
+font-size: 12px;
+font-weight: lighter;
+color: #C0392B;
+margin-top: 8px;
+margin-left: 37px;
+display: block;
+position: absolute;
 }
