@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-// 1. Create a welcome greeting to the user by taking the firstname and lastname the user input on the form/
+
+//Cheatsheet for JS assignment
+// 1. Create a welcome greeting to the user by taking the firstname and lastname the user input on the form with return function and jQuery
 	/* function welcomeName( first, last ) {
 
 
@@ -27,7 +29,28 @@ $(document).ready(function() {
 
 	}); */
 
-//Newsletter
+// 3. Make additional article form by clicking linked button with .append
+ /* function makeArticle(e){
+
+	$("#input_output_example").append("New Text");
+	$("#input_output_field").val("New Text");
+	$("#content").append("<article> <h1>Title</h1> <h2>Author</h2> <p>context of article</p></article> <hr/>");
+	 }
+
+	$("#input_output_button").click(makeArticle); */
+
+// 4. append paragraph that show the clicked button's name
+
+	/* $('clickbutton').click(function(e) {
+		var currentTarget = $(e.currentTarget),
+	appendText = currentTarget.text();
+
+		$('#result').append("<p>" + appendText + "</p>");
+	 }); */
+
+
+
+//Newsletter email verify function
 $("#newsletter_button").click (function () {
         $(".error").hide();
 
@@ -41,14 +64,14 @@ $("#newsletter_button").click (function () {
         }
  
         else if(!emailReg.test(emailaddressVal)) {
-            $("#useremail").after('<div class="error">Enter a valid email address.</div>');
+            $("#useremail").after('<div class="error">Please enter a valid email address.</div>');
             hasError = true;
         }
  
         if(hasError == true) { 
         	return false;
 		} else {
-			$("#useremail").after('<div class="error">Thank you for joining our Newsletter!</div>');
+			alert("Thank you for joining our Newsletter!");
 		}
  });
 
@@ -58,7 +81,7 @@ $("#newsletter_button").click (function () {
 	$("aside").slideDown(1000);
 
 //form fade-in
-	$("#form").fadeIn(2000);
+	$("#form").fadeIn(1000);
 });
     
 
